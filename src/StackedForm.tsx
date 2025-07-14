@@ -71,6 +71,14 @@ export default function StackedForm() {
                                 <Button>Save Changes</Button>
                             </div>
                         </div>
+                        <div className="row">
+                            <div className="col">
+                                <Input type="text" placeholder="First name" aria-label="First name" />
+                            </div>
+                            <div className="col">
+                                <Input type="text" placeholder="Last name" aria-label="Last name" />
+                            </div>
+                        </div>
                     </form>
                 </CardContent>
             </Card>

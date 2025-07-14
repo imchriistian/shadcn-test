@@ -244,4 +244,66 @@
     --input: oklch(0.9276 0.0058 264.5313);
     --ring: oklch(0.6382 0.2097 140.9548);
   }
+
+  .container {
+    @apply tw:max-w-screen-xl tw:mx-auto tw:px-4;
+  }
+
+  .row {
+    @apply tw:flex tw:flex-wrap tw:-mx-2;
+  }
+
+  .col {
+    @apply tw:px-2 tw:w-full tw:sm:flex-1;
+  }
+
+  .col-1 {
+    @apply tw:px-2 tw:w-1/12;
+  }
+  .col-2 {
+    @apply tw:px-2 tw:w-2/12;
+  }
+  .col-3 {
+    @apply tw:px-2 tw:w-3/12;
+  }
+  .col-4 {
+    @apply tw:px-2 tw:w-4/12;
+  }
+  .col-5 {
+    @apply tw:px-2 tw:w-5/12;
+  }
+  .col-6 {
+    @apply tw:px-2 tw:w-6/12;
+  }
+  .col-7 {
+    @apply tw:px-2 tw:w-7/12;
+  }
+  .col-8 {
+    @apply tw:px-2 tw:w-8/12;
+  }
+  .col-9 {
+    @apply tw:px-2 tw:w-9/12;
+  }
+  .col-10 {
+    @apply tw:px-2 tw:w-10/12;
+  }
+  .col-11 {
+    @apply tw:px-2 tw:w-11/12;
+  }
+  .col-12 {
+    @apply tw:px-2 tw:w-full;
+  }
+
+  .offset-1 {
+    @apply tw:ml-[8.333333%];
+  } /* 1/12 */
+  .offset-2 {
+    @apply tw:ml-[16.666667%];
+  }
+  .offset-3 {
+    @apply tw:ml-[25%];
+  }
+  .offset-4 {
+    @apply tw:ml-[33.333333%];
+  }
 }
