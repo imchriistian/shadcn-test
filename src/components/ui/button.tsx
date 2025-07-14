@@ -10,15 +10,36 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "tw:bg-primary tw:text-primary-foreground tw:shadow-xs tw:hover:bg-primary/90",
+          "tw:bg-primary tw:text-primary-foreground tw:shadow tw:hover:bg-primary/90",
         destructive:
-          "tw:bg-destructive tw:text-white tw:shadow-xs tw:hover:bg-destructive/90 tw:focus-visible:ring-destructive/20 tw:dark:focus-visible:ring-destructive/40 tw:dark:bg-destructive/60",
+          "tw:bg-destructive tw:text-destructive-foreground tw:shadow-sm tw:hover:bg-destructive/90",
+        success:
+          "tw:bg-success tw:text-success-foreground tw:shadow-sm tw:hover:bg-success/90",
+        warning:
+          "tw:bg-warning tw:text-warning-foreground tw:shadow-sm tw:hover:bg-warning/90",
+        info:
+          "tw:bg-info tw:text-info-foreground tw:shadow-sm tw:hover:bg-info/90",
         outline:
-          "tw:border tw:bg-background tw:shadow-xs tw:hover:bg-accent tw:hover:text-accent-foreground tw:dark:bg-input/30 tw:dark:border-input tw:dark:hover:bg-input/50",
+          "tw:border tw:border-input tw:bg-background tw:shadow-sm tw:hover:bg-accent tw:hover:text-accent-foreground",
+        "outline-destructive":
+          "tw:border tw:border-destructive! tw:bg-background tw:text-destructive tw:shadow-sm tw:hover:bg-destructive tw:hover:text-destructive-foreground",
+        "outline-success":
+          "tw:border tw:border-success! tw:bg-background tw:text-success tw:shadow-sm tw:hover:bg-success tw:hover:text-success-foreground",
+        "outline-warning":
+          "tw:border tw:border-warning! tw:bg-background tw:text-warning tw:shadow-sm tw:hover:bg-warning tw:hover:text-warning-foreground",
+        "outline-info":
+          "tw:border tw:border-info! tw:bg-background tw:text-info tw:shadow-sm tw:hover:bg-info tw:hover:text-info-foreground",
         secondary:
-          "tw:bg-secondary tw:text-secondary-foreground tw:shadow-xs tw:hover:bg-secondary/80",
-        ghost:
-          "tw:hover:bg-accent tw:hover:text-accent-foreground tw:dark:hover:bg-accent/50",
+          "tw:bg-secondary tw:text-secondary-foreground tw:shadow-sm tw:hover:bg-secondary/80",
+        ghost: "tw:hover:bg-accent tw:hover:text-accent-foreground",
+        "ghost-destructive":
+          "tw:text-destructive tw:hover:bg-destructive tw:hover:text-destructive-foreground",
+        "ghost-success":
+          "tw:text-success tw:hover:bg-success tw:hover:text-success-foreground",
+        "ghost-warning":
+          "tw:text-warning tw:hover:bg-warning tw:hover:text-warning-foreground",
+        "ghost-info":
+          "tw:text-info tw:hover:bg-info tw:hover:text-info-foreground",
         link: "tw:text-primary tw:underline-offset-4 tw:hover:underline",
       },
       size: {
